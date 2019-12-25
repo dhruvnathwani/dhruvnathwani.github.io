@@ -85,7 +85,7 @@ input_box.addEventListener('input', function(){
 
     let search_stock = $('#chosen_stock').val()
 
-    let lookup_link = 'http://d.yimg.com/aq/autoc?region=US&lang=en-US&query=' + search_stock
+    let lookup_link = 'https://d.yimg.com/aq/autoc?region=US&lang=en-US&query=' + search_stock
 
     $.get(lookup_link)
     .done(function(data){
